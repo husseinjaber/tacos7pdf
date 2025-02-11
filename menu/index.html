@@ -1,10 +1,12 @@
-<script>
-  function isMobile() {
-    return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  }
-  if (isMobile()) {
-    document.write('<a href="../pdfs/menu_a4_c.pdf" target="_blank">Open Full Menu</a>');
-  } else {
-    document.write('<iframe src="../pdfs/menu_a4_c.pdf" width="100%" height="100%" style="border: none; min-height: 100vh;"></iframe>');
-  }
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; URL='/pdfs/menu_a4_c.pdf'">
+</head>
+<body>
+    <p>If you are not redirected, <a href="/pdfs/menu_a4_c.pdf">Menu</a>.</p>
+</body>
+</html>
