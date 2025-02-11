@@ -1,1 +1,10 @@
-<iframe src="../pdfs/menu_a4_c.pdf" width="100%" height="100%" style="border: none; min-height: 100vh;"></iframe>
+<script>
+  function isMobile() {
+    return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  }
+  if (isMobile()) {
+    document.write('<a href="../pdfs/menu_a4_c.pdf" target="_blank">Open Full Menu</a>');
+  } else {
+    document.write('<iframe src="../pdfs/menu_a4_c.pdf" width="100%" height="100%" style="border: none; min-height: 100vh;"></iframe>');
+  }
+</script>
